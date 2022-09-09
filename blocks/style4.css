@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+body{
+    background:lemonchiffon;
+    text-align: left;}
+.wrapper{
+    padding: 10px;
+    width: 900px;
+    margin:30px auto;}
+.float{
+    background: lightskyblue;
+    outline: 1.7px solid blue;
+    font-size: 18px;}
+.psevdo:after{
+    content:"";
+    clear:left;
+    display:block}
+.in_float{
+    float:left;
+    outline: 1.7px solid blue;}
+.third{
+    width: 300px;}
+.six{
+    width: 600px;}
+.half{
+    width: 50%;}
+.kontent{
+    outline: 1.7px solid blue;}
+.link{
+    height: 15px;
+    background: lightgreen;
+    border: solid 1px blue;
+    display: inline-block;
+    text-align: right;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Verdana;
+    padding: 10px 10px;
+    border-radius: 100px;}
+
+.flexbox{
+    display:flex;
+    background:lightcoral;
+    justify-content: center;
+    
+}
+.in_flexbox{
+    outline: 1.7px solid blue;
+    text-align: center;}
+.center{flex-direction:column;}
+
+.grid{
+    display:grid;
+    background:rgb(128, 240, 158);}
+
+.in_grid{outline: 1.7px solid blue;
+    text-align: center;}
+.same3fr{
+    grid-template-columns: auto auto auto;}
+.same2fr{
+    grid-template-columns: auto auto;}
+.dif2fr{
+    grid-template-columns: 2fr 1fr;}
+.containerareas{
+    display: grid;
+    grid-template-areas:
+    "AA BB CC"
+    "DD DD EE"
+    "DD DD FF"
+    "HH HH FF"
+    "II JJ JJ"
+    "KL LJ JJ"
+    "MM MM NN"
+    "OO PP NN"
+    "OO QQ NN";
+    grid-template-columns: 225px 75px 150px 150px 150px 150px;
+    grid-gap: 10px;
+margin:0 avto}
+span{color:red}
+
+.a{
+    grid-area: A;}
+.b{
+    grid-area: B;}   
+.c{
+    grid-area: C;} 
+.d{
+    grid-area: D;}
+.e{
+    grid-area: E;}
+.f{
+    grid-area: F;}
+.g{
+    grid-area: G;}
+.i{
+    grid-area: I;}
+.k{
+    grid-area: K;}
+.l{
+    grid-area: L;}
+.m{
+    grid-area: M;}
+.n{
+    grid-area: N;}
+.o{
+    grid-area: O;}
+.p{
+    grid-area: P;}
+.q{
+    grid-area: Q;}
