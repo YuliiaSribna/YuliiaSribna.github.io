@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+.headBlock{
+    margin: 30px auto;
+    width: 900px;
+    background:pink;
+}
+.test01{
+    height: 50px;
+    width: 35px;
+    background: repeating-linear-gradient(blue 0 10px, transparent 10px 20px);
+
+}
+.test02{
+    min-height:400px;
+    width: 900px;
+    background:radial-gradient(circle at 90% 50%,green 95%,pink 95%);
+}
+.test03{
+    min-height:400px;
+    width: 900px;
+    background:pink;
+}
+.test04{
+    min-height:300px;
+    width: 600px;
+    background:rgb(202, 30, 59);
+    box-shadow: 10px 20px 30px 20px aqua;
+}
+.test05{
+    min-height:300px;
+    width: 600px;
+    background:lime;
+    box-shadow: 0px 0px 0px 20px aqua;
+}
+.test06{
+    min-height:300px;
+    width: 900px;
+    background:purple;
+    border-radius: 40px;
+}
+.octagon {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    display: block;
+  }
+  
+  .octagon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 29px solid red;
+    border-left: 29px solid rgb(238, 238, 238);
+    border-right: 29px solid #eee;
+    width: 42px;
+    height: 0;
+  }
+  
+  .octagon:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid red;
+    border-left: 29px solid #eee;
+    border-right: 29px solid #eee;
+    width: 42px;
+    height: 0;
+  }
